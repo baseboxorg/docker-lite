@@ -3,7 +3,7 @@
 #
 ########################################################
 
-FROM docker:18.03.0-ce as builder
+FROM baseboxorg/docker-resin:18.03 as builder
 
 #FROM alpine:3.7
 FROM resin/armhf-alpine
